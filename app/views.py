@@ -20,7 +20,7 @@ def generar_file(request):
     response['Content-Disposition'] = 'attachment; filename=Pago_mensualizado.csv'
     
     separador = "|"
-    contador = 0
+    contador = 2
     
     rnc = "123456789"
     cuenta = "12345678911"
