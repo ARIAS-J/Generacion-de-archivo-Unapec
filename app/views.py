@@ -4,12 +4,6 @@ from django.http import HttpResponse
 
 from app.models import Nomina
 
-# Create your views here.
-
-# def upload_file(request):
-#     if request.method == 'POST' and request.FILES['file']:
-#         myfiles = request.FILES['file']
-
 def home(request):
     
     return render(request, 'app/home.html')
